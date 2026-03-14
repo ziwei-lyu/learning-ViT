@@ -18,6 +18,7 @@
 
 训练过程中Loss变化如下图：
 ![Training Loss](<images/Training_Loss.png>)
+
 此外，我提取了 Transformer 最后一层的 Attention 权重。以下是测试集中第一张图片的注意力分布热力图（不同颜色代表各个 Attention Head 关注的图像区域）：
 ![Attention Weight](<images/Attention_Weight.png>)
 这表明模型的不同头确实在关注图像的不同区域。
